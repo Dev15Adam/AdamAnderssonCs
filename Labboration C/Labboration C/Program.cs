@@ -12,8 +12,13 @@ namespace Labboration_C
         {
             //Bilar();
             //Radios();
+            //Mc();
+        }
+
+        private static void Mc()
+        {
             var honda = new Mc();
-            var yamaha = new Mc(numberOfGears: 4, numberOfHp: 15, coolor: 290, brand: "Yamaha", name:"Batata");
+            var yamaha = new Mc(numberOfGears: 4, numberOfHp: 15, coolor: 290, brand: "Yamaha", name: "Batata");
             var kawasaki = new Mc(numberOfGears: 6, numberOfHp: 55, coolor: 290, brand: "Yamaha", name: "Batata");
         }
 
