@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboration1", "Laboration1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labboration C", "Labboration C\Labboration C\Labboration C.csproj", "{BF20926A-5CC8-4271-878E-570A7AF48829}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercice_1", "Exercice_1", "{D761B1E9-E690-4896-AA83-B724515A1A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercice_2", "Exercice_2", "{F8A19D16-CEC9-4E36-BA8E-18BA582E02A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +70,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D16FD5E-F1DD-4D94-91E9-7BF7EE85CCE2} = {D761B1E9-E690-4896-AA83-B724515A1A53}
+		{142B1108-B54B-4FB1-B764-CF990E2C2F9D} = {D761B1E9-E690-4896-AA83-B724515A1A53}
+		{3C80BCB2-E407-47C3-99FF-9E23BDA71FD3} = {D761B1E9-E690-4896-AA83-B724515A1A53}
+		{17CF5FB3-51CC-4FB8-A90A-5367679C1EC5} = {D761B1E9-E690-4896-AA83-B724515A1A53}
+		{3C6D307F-27A3-4831-B1AB-B1FF6A7592C8} = {F8A19D16-CEC9-4E36-BA8E-18BA582E02A4}
 	EndGlobalSection
 EndGlobal
