@@ -20,20 +20,20 @@ namespace ovning_2
             string theTextContent = "Dow Jones sjönk med {0} procent och Nasdaq med {1} procent.Stockholm {2} procent, Milano {3} procent, Paris {4} procent.";
             Console.WriteLine(theTextContent, dowJonesInterest, nasdaqInterest, stockholmInterest, milanoInterest, parisInterest);
 
-            double piWithNineDecimales = Math.PI;
-            double piRounded = 3.33;
-            int piRoughRounded = 5;
-            Console.WriteLine("{0},{1},{2}", piWithNineDecimales, piRounded, piRoughRounded);
-            piWithNineDecimales = 3.141592654;
-            piRounded = 3.14;
-            piRoughRounded = 3;
-            string textContentForPi = "Talet pi är cirka {0} men kan avrundas till {1} och kan lite grovt skrivas som {2}.";
-            Console.WriteLine(textContentForPi, piWithNineDecimales, piRounded, piRoughRounded);
+            const double PI = Math.PI;
+            //double piRounded =  PI;
+            //int piRoughRounded = 5;
+            Console.WriteLine("{0},{1},{2}", PI, PI, PI);
+            //PI = 3.141592654;
+            //piRounded = 3.14;
+            //piRoughRounded = 3;
+            string textContentForPi = "Talet pi är cirka {0} men kan avrundas till {1:f2} och kan lite grovt skrivas som {2:f0}.";
+            Console.WriteLine(textContentForPi, PI, PI, PI);
 
-            string textContentOfJonas = "Han heter Jonas";
-            Console.WriteLine(textContentOfJonas);
-            textContentOfJonas = "Han heter Jonas och bor i Helsingborg på Stattena vid Hemköp";
-            Console.WriteLine(textContentOfJonas);
+            string jonasName = "Jonas";
+            string jonasHomeTown = "Helsingborg";
+            string jonasStore = "Hemköp";
+            Console.WriteLine("Han heter {0} och bor i {1} på Stattena vid {2}", jonasName, jonasHomeTown, jonasStore);
         }
     }
 }
