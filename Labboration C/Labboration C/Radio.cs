@@ -52,12 +52,16 @@ namespace Labboration_C
             RadioOn = true;
             instanceCount++;
         }
-        public Radio(double frekvens, byte volym, bool radioOn)
+
+        public Radio(double frekvens, byte volym) : this()
         {
             Frekvens = frekvens;
             Volym = volym;
+        }
+        public Radio(double frekvens, byte volym, bool radioOn): this(frekvens,volym)
+        {
+           
             RadioOn = radioOn;
-            instanceCount++;
         }
         public override string ToString() => $"Frekvens: {Frekvens} Volym: {Volym} RadioOn: {RadioOn} Instance count: {instanceCount}";
 

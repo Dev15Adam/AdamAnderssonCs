@@ -11,7 +11,7 @@ namespace Labboration_C
         static void Main(string[] args)
         {
             //Bilar();
-            //Radios();
+            Radios();
             //Mc();
         }
 
