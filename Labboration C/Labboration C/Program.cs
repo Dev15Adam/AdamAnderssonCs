@@ -12,7 +12,7 @@ namespace Labboration_C
         {
             
             //Bilar();
-            //Radios();
+            Radios();
             //Mc();
         }
 
